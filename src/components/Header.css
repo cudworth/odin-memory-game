@@ -1,0 +1,9 @@
+.Header {
+  background-color: #f2f2f2;
+  color: #402116;
+  border-bottom: solid 18px #a3a658;
+}
+
+.Header .title {
+  font-size: 48px;
+}
