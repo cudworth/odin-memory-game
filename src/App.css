@@ -1,38 +1,66 @@
 .App {
-  text-align: center;
+  background-color: #778ba6;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.flex-row {
+  display: flex;
+  flex-direction: row;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex-col {
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+.align-end {
+  align-items: end;
+}
+
+.space-bet {
+  justify-content: space-between;
+}
+
+.justify-ctr {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.wrap {
+  flex-wrap: wrap;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.padding {
+  padding: 10px;
+}
+
+.margin {
+  margin: 10px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+/* Color Theme Swatches in Hex */
+.catching-a-brown-trout-in-the-river-1-hex {
+  color: #778ba6;
+}
+.catching-a-brown-trout-in-the-river-2-hex {
+  color: #a3a658;
+}
+.catching-a-brown-trout-in-the-river-3-hex {
+  color: #bfb373;
+}
+.catching-a-brown-trout-in-the-river-4-hex {
+  color: #402116;
+}
+.catching-a-brown-trout-in-the-river-5-hex {
+  color: #f2f2f2;
 }
